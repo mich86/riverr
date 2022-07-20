@@ -1,0 +1,10 @@
+## Ignore Mac OS Stuff
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Ignore logs
+*.logs
+
+## Ignore FE stuff
+node_modules/
