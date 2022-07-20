@@ -1,0 +1,26 @@
+{
+  "name": "riverr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build ./src/tailwind.css -o public/tailwind.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mich86/riverr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mich86/riverr/issues"
+  },
+  "homepage": "https://github.com/mich86/riverr#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss-import": "^14.1.0",
+    "postcss-nesting": "^10.1.10",
+    "tailwindcss": "^3.1.6"
+  }
+}
