@@ -590,6 +590,30 @@ video {
   margin-right: auto;
 }
 
+.mb-7 {
+  margin-bottom: 35px;
+}
+
+.mt-7 {
+  margin-top: 35px;
+}
+
+.mt-6 {
+  margin-top: 30px;
+}
+
+.mt-2 {
+  margin-top: 12px;
+}
+
+.mt-4 {
+  margin-top: 18px;
+}
+
+.mt-1 {
+  margin-top: 8px;
+}
+
 .grid {
   display: grid;
 }
@@ -603,7 +627,7 @@ video {
 }
 
 .gap-4 {
-  gap: 1rem;
+  gap: 18px;
 }
 
 .rounded-md {
@@ -625,13 +649,22 @@ video {
 }
 
 .py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.py-6 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pt-6 {
+  padding-top: 30px;
 }
 
 .text-lg {
