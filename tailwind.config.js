@@ -21,6 +21,10 @@ module.exports = {
         '7': '35px',
         '8': '55px',
       },
+      flex: {
+        '2': '1 0 50%',
+        '4': '1 0 25%',
+      },
       height: {
         '89': '355px',
       },
@@ -48,7 +52,7 @@ module.exports = {
         },
       },
       fontSize: {
-        xs: ['0.5rem', { lineHeight: '1.5rem' }], //8
+        xs: ['0.5rem', { lineHeight: '1rem' }], //8
         sm: ['0.75rem', { lineHeight: '1.5rem' }], //12
         md: ['0.938rem', { lineHeight: '1rem' }], //15
         base: ['1rem', { lineHeight: '1.5rem' }], //16

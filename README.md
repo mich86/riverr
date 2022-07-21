@@ -64,4 +64,5 @@ This page has been deployed using [Netlify](https://www. "About Us")
    * header - mini-menus on hover CSS
    * carousel - scrolling
    * buttons - interactive states CSS
-4. Integration of Sass using BEM with Tailwind CSS (if required, discussion required with team)
+4. Integrate A11Y (aria labels)
+5. Integration of Sass using BEM with Tailwind CSS (if required, discussion required with team)
