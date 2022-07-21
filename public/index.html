@@ -9,13 +9,13 @@
 	</head>
 	<body>
 		<!-- header -->
-		<header class="container mx-auto py-3 px-4 grid grid-cols-2 gap-4">
+		<!-- <header class="container mx-auto py-3 px-4 grid grid-cols-2 gap-4"> -->
 			<!-- logo -->
-			<a href="https://www.quintainliving.com/">
+			<!-- <a href="https://www.quintainliving.com/">
 				<img src="/src/images/svgs/ql-logo-black.svg" class="w-44" alt="" />
-			</a>
+			</a> -->
 			<!-- nav menu mobile -->
-			<nav class="grid grid-cols-2">
+			<!-- <nav class="grid grid-cols-2">
 				<ul>
 					<li>
 						<img
@@ -26,103 +26,187 @@
 					</li>
 					<li>BURGER MENU ICON</li>
 				</ul>
-			</nav>
+			</nav> -->
 			<!-- ./nav menu mobile -->
-		</header>
+		<!-- </header> -->
 		<!-- ./header -->
 
-		<!-- search -->
-		<div>
-			<p class="text-lg uppercase">find your dream home</p>
-			<!-- mobile (link) -->
-			<a
+		<!-- TODO search -->
+		<!-- <div> -->
+		<!-- <p class="text-lg uppercase">find your dream home</p> -->
+		<!-- mobile (link) -->
+		<!-- <a
 				href="https://www.quintainliving.com/search-units"
 				class="bg-red py-3 px-4 border border-red rounded-md text-white text-md"
-			>
-				Search
-			</a>
-			<!-- ./mobile -->
-			<!-- desktop (form) -->
-			<!-- ./desktop -->
-		</div>
+			> -->
+		<!-- Search -->
+		<!-- </a> -->
+		<!-- ./mobile -->
+		<!-- desktop (form) -->
+		<!-- ./desktop -->
+		<!-- </div> -->
 		<!-- ./search -->
 
-		<!-- hero banner -->
-		<!-- mobile has no heading, desktop does -->
-		<section>
-			<img src="/src/images/ql-team-inside.jpeg" alt="alt="group of staff
-			standing inside the Quintain Living office.">
-		</section>
-		<!-- ./hero banner -->
+		<main>
+			<!-- hero banner -->
+			<section class="relative flex flex-col justify-center items-center overflow-hidden h-89">
+        <div class="container mx-auto py-4 px-6">
+          <img
+            src="/src/images/ql-team-inside.jpeg"
+            class="absolute w-full h-full object-cover -z-10 inset-0"
+            alt=""
+          />
+          <div class="hidden md:block md:text-center md:max-w-3xl">
+            <h1 class="text-2xl font-bold uppercase text-white md:text-4xl">
+              about quitain living
+            </h1>
+          </div>
+      </div>
+			</section>
+			<!-- ./hero banner -->
 
-		<!-- text content -->
-		<section class="container mx-auto py-6 px-4">
-			<!-- mobile has a heading, desktop appears in hero banner -->
-			<h1 class="text-2xl font-bold uppercase mt-7">about quitain living</h1>
-			<p class="mt-2">
-				Hello. We’re Quintain Living. A rental experience like no other. We
-				create amazing places to live, both inside and outside your four
-				walls. We’re part of Quintain, the award-winning developer behind
-				Wembley Park. Together we design and build a range of stylish homes
-				for you to choose from and rent in Wembley Park, in an exciting
-				neighbourhood curated around you. All just 12 minutes from Central
-				London.
-			</p>
-		</section>
-		<!-- ./text content -->
+			<!-- text content -->
+			<section class="container mx-auto max-w-full py-6 px-4 md:max-w-2xl">
+				<h1 class="text-2xl font-bold uppercase md:hidden">
+					about quitain living
+				</h1>
+				<p class="mt-2 mx-auto md:text-center md:max-w-lg lg:max-w-xl">
+					Hello. We’re Quintain Living. A rental experience like no other.
+					We create amazing places to live, both inside and outside your
+					four walls. We’re part of Quintain, the award-winning developer
+					behind Wembley Park. Together we design and build a range of
+					stylish homes for you to choose from and rent in Wembley Park, in
+					an exciting neighbourhood curated around you. All just 12 minutes
+					from Central London.
+				</p>
+			</section>
+			<!-- ./text content -->
 
-		<!-- cards 50/50 -->
-		<!-- mobile is stacked, desktop is 50/50 -->
-		<!-- this would be looped if dynamic -->
-		<section class="container mx-auto py-6 px-4">
-			<h2 class="text-xl font-bold uppercase">meet the teams</h2>
-			<!-- card 1 -->
-			<div class="pt-6">
-				<img
-					src="/src/images/ql-team.jpeg"
-					alt="group of staff standing outside the Quintain Living office."
-				/>
-				<h3 class="text-lg font-bold uppercase mt-4">leasing team</h3>
-				<p class="mt-1">
-					Helping you find your dream home, the Leasing team are on hand to
-					find what you're looking for. You'll speak to them when you first
-					get in touch, they'll take you for viewings and help you reserve
-					your new home.
-				</p>
-			</div>
-			<!-- card 2 -->
-			<div class="pt-6">
-				<img
-					src="/src/images/ql-customer.jpeg"
-					alt="man at a desk smiling at another man walking past."
-				/>
-				<h3 class="text-lg font-bold uppercase mt-4">residents team</h3>
-				<p class="mt-1">
-					The team who look after our residents and their experience. They're always available to help, to listen and to make your everyday home life as easy as possible.
-				</p>
-			</div>
-			<!-- card 3 -->
-			<div class="pt-6">
-				<img
-					src="/src/images/ql-events.jpeg"
-					alt="man at a desk smiling at another man walking past."
-				/>
-				<h3 class="text-lg font-bold uppercase mt-4">events and partnership team</h3>
-				<p class="mt-1">
-					The people who design and host resident events from quiz nights to art clubs or foodie classes. They're also the team that handpick exclusive residents offers from likes of Sky, Bloom & Wild and from the many exciting Wembley Park brands.
-				</p>
-			</div>
-			<!-- card 4 -->
-			<div class="py-6">
-				<img
-					src="/src/images/ql-maintainance.jpeg"
-					alt="man at a desk smiling at another man walking past."
-				/>
-				<h3 class="text-lg font-bold uppercase mt-4">maintainance team &amp; housekeeping services</h3>
-				<p class="mt-1">
-					Our Maintenance team look after your apartment and your building ensuring everything works as it should, that social spaces, gardens & lobbies are clean, tidy and energy efficient as they can be. Separately we partner with a resident housekeeping service that you can arrange direct if you want weekly, fortnightly or just a one-off clean.
-				</p>
-			</div>
-		</section>
+			<!-- cards 50/50 -->
+			<section class="container mx-auto max-w-full py-6 px-4 md:max-w-2xl">
+				<h2 class="text-xl font-bold uppercase mb-5 md:text-3xl">
+					meet the teams
+				</h2>
+				<div class="grid md:grid-cols-2 gap-y-6 md:gap-x-5 md:gap-y-14">
+          <!-- this would be looped if dynamic -->
+					<!-- card 1 -->
+					<div class="">
+						<img src="/src/images/ql-team.jpeg" alt="" />
+						<h3 class="text-lg font-bold uppercase mt-4">leasing team</h3>
+						<p class="mt-1">
+							Helping you find your dream home, the Leasing team are on
+							hand to find what you're looking for. You'll speak to them
+							when you first get in touch, they'll take you for viewings
+							and help you reserve your new home.
+						</p>
+					</div>
+					<!-- card 2 -->
+					<div class="">
+						<img src="/src/images/ql-customer.jpeg" alt="" />
+						<h3 class="text-lg font-bold uppercase mt-4">
+							residents team
+						</h3>
+						<p class="mt-1">
+							The team who look after our residents and their experience.
+							They're always available to help, to listen and to make
+							your everyday home life as easy as possible.
+						</p>
+					</div>
+					<!-- card 3 -->
+					<div class="">
+						<img src="/src/images/ql-events.jpeg" alt="" />
+						<h3 class="text-lg font-bold uppercase mt-4">
+							events and partnership team
+						</h3>
+						<p class="mt-1">
+							The people who design and host resident events from quiz
+							nights to art clubs or foodie classes. They're also the
+							team that handpick exclusive residents offers from likes of
+							Sky, Bloom & Wild and from the many exciting Wembley Park
+							brands.
+						</p>
+					</div>
+					<!-- card 4 -->
+					<div class="">
+						<img src="/src/images/ql-maintainance.jpeg" alt="" />
+						<h3 class="text-lg font-bold uppercase mt-4">
+							maintainance team &amp; housekeeping services
+						</h3>
+						<p class="mt-1">
+							Our Maintenance team look after your apartment and your
+							building ensuring everything works as it should, that
+							social spaces, gardens & lobbies are clean, tidy and energy
+							efficient as they can be. Separately we partner with a
+							resident housekeeping service that you can arrange direct
+							if you want weekly, fortnightly or just a one-off clean.
+						</p>
+					</div>
+				</div>
+			</section>
+
+      <!-- cards 3 row -->
+			<section class="container mx-auto max-w-full py-6 px-4 md:max-w-2xl">
+				<h2 class="font-bold uppercase mb-5 md:text-3xl">
+					meet the teams
+				</h2>
+				<div class="grid md:grid-cols-3 gap-y-7 md:gap-x-6 md:gap-y-14">
+          <!-- this would be looped if dynamic -->
+					<!-- card 1 -->
+					<div class="">
+						<img src="/src/images/ql-danielle.jpeg" alt="" />
+						<h3 class="text-lg font-bold uppercase mt-4">DANIELLE BAYLESS</h3>
+						<h4 class="text-lg font-bold capitalize mt-4">Chief Operating Officer</h4>
+						<p class="mt-1">
+							Danielle leads the Quintain Living team with a wealth of experience from the US. She leads everything from our corporate vision to overseeing the operational running of the business. She's also the proud owner of Chief Cuddle Officer, Quinn the dog.
+						</p>
+					</div>
+					<!-- card 2 -->
+          <div class="">
+						<img src="/src/images/ql-ashley.jpeg" alt="" />
+						<h3 class="text-lg font-bold uppercase mt-4">ASHLEY SAN PEDRO</h3>
+						<h4 class="text-lg font-bold capitalize mt-4">Sales Director</h4>
+						<p class="mt-1">
+							Ashley heads up our Leasing team, delivering customers with the best possible customer experience in finding their dream home. From Texas originally, Ashley brings significant experience from the US and is now a certified Londoner.
+						</p>
+					</div>
+					<!-- card 3 -->
+					<div class="">
+						<img src="/src/images/ql-russell.jpeg" alt="" />
+						<h3 class="text-lg font-bold uppercase mt-4">RUSSELL MARKOU</h3>
+						<h4 class="text-lg font-bold capitalize mt-4">Head of Operations</h4>
+						<p class="mt-1">
+							Russell leads our Resident teams across all our buildings, passionately striving to ensure the highest standards are maintained and residents are happy. With a strong background in the hotel sector, Russell delivers our resident experience.
+						</p>
+					</div>
+					<!-- card 4 -->
+          <div class="">
+						<img src="/src/images/ql-richard.jpeg" alt="" />
+						<h3 class="text-lg font-bold uppercase mt-4">RICHARD CLARK</h3>
+						<h4 class="text-lg font-bold capitalize mt-4">Head of Finance</h4>
+						<p class="mt-1">
+							Rich and his team have the important task of managing Quintain Living's finances, ensuring we run efficiently from handling everyone's rent, supporting all other teams through to shareholder reporting. Rich has led finance teams at top UK and international consumer brands in sectors from hospitality to leisure.
+						</p>
+					</div>
+					<!-- card 5 -->
+          <div class="">
+						<img src="/src/images/ql-nick.jpeg" alt="" />
+						<h3 class="text-lg font-bold uppercase mt-4">NICK ADAMS</h3>
+						<h4 class="text-lg font-bold capitalize mt-4">Head of Facilities Management</h4>
+						<p class="mt-1">
+							Nick leads the team working (almost invisibly) to ensure our buildings are running smoothly, efficiently and to the standards our residents expect. Nick brings a host of experience from 15 years in the FM industry to the role and has a particular interest in driving sustainability initiatives as part of his work.
+						</p>
+					</div>
+					<!-- card 6 -->
+          <div class="">
+						<img src="/src/images/ql-quinn.jpeg" alt="" />
+						<h3 class="text-lg font-bold uppercase mt-4">Quinn</h3>
+						<h4 class="text-lg font-bold capitalize mt-4">Chief Cuddle Officer</h4>
+						<p class="mt-1">
+							Leading the charge on cuteness and cuddles.
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
 	</body>
 </html>

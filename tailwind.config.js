@@ -21,6 +21,20 @@ module.exports = {
         '7': '35px',
         '8': '55px',
       },
+      height: {
+        '89': '355px',
+      },
+      maxWidth: ({ theme, breakpoints }) => ({
+        lg: '45rem',
+        xl: '54rem',
+        '2xl': '67rem',
+        '3xl': '82rem',
+        ...breakpoints(theme('screens')),
+      }),
+      container: {
+        center: true,
+      },
+
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
@@ -41,6 +55,8 @@ module.exports = {
         lg: ['1.125rem', { lineHeight: '1.25rem' }], //18
         xl: ['1.375rem', { lineHeight: '1.75rem' }], //22
         '2xl': ['1.75rem', { lineHeight: '2rem' }], //28
+        '3xl': ['1.875rem', { lineHeight: '2rem' }], //30
+        '4xl': ['2.813rem', { lineHeight: '2.813rem' }], //30
       },
     },
   },
