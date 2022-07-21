@@ -5,7 +5,7 @@ function imgReduce() {
   return gulp
   .src("./src/images/*")
   .pipe(imageMin())
-  .pipe(gulp.dest("./dist/images"));
+  .pipe(gulp.dest("./public/images"));
 }
 
 exports.images = imgReduce;

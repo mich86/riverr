@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "images": "gulp images",
-    "css": "tailwindcss build ./src/styles/tailwind.css -o public/styles.css -w",
-    "build": "npm-run-all images css"
+    "css:dev": "tailwindcss build ./src/styles/tailwind.css -o public/styles.css -w",
+    "css:prod": "tailwindcss build ./src/styles/tailwind.css -o public/styles.css",
+    "build:dev": "npm run images && npm run css:dev",
+    "build:prod": "npm run images && npm run css:prod"
   },
   "repository": {
     "type": "git",
