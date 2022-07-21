@@ -35,6 +35,8 @@ This is a static About page using HTML5, Tailwind CSS and Gulp.
 ### Setup Issues
 * Check the version of Node you have installed Globally against the version mentioned above
 * Check the version of Gulp you have installed Globally against the version mentioned above
+* if the css not showing locally, update the link path to be `public/styles.css`. Deployment change to `/styles.css`
+* if the images are not showing locally, update the `<img>` tags to `public/images/<filename>`. Deployment change to `/images/`
 
 ## FE Information
 * Building with Grid CSS.
@@ -42,9 +44,11 @@ This is a static About page using HTML5, Tailwind CSS and Gulp.
 * See [Next Steps](#next-steps) and strikethrough when completed. Add to the list if things change or are found.
 
 ## Deployment
-This page has been deployed using [Netlify](https://www. "About Us")
+This page has been deployed using [Netlify](https://riverr-ql-about.netlify.app/).
 
 ## Testing
+* Browsers: Chrome, Firefox and Safari
+* Devices: MacBook Pro OS Monterey v 12.4 and iPhone SE iOS 15.6
 * HTML5 Vaildator
 * Lighthouse Report
 * Network Speeds: Fast 3G and Slow 3G (dev tools, Network)
