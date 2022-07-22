@@ -3,7 +3,7 @@ const imageMin = require("gulp-imagemin");
 
 function imgReduce() {
   return gulp
-  .src("./src/images/*")
+  .src("./src/images/**/*")
   .pipe(imageMin())
   .pipe(gulp.dest("./public/images"));
 }
