@@ -37,7 +37,7 @@ module.exports = {
         ...breakpoints(theme('screens')),
       }),
       container: {
-        center: true,
+        center: true
       },
 
       colors: {
@@ -63,6 +63,9 @@ module.exports = {
         '2xl': ['1.75rem', { lineHeight: '2rem' }], //28
         '3xl': ['1.875rem', { lineHeight: '2rem' }], //30
         '4xl': ['2.813rem', { lineHeight: '2.813rem' }], //30
+      },
+      boxShadow: {
+        DEFAULT: '0 2px 3px -3px rgb(0 0 0 / 0.2), 0 2px 4px -4px rgb(0 0 0 / 0.2)',
       },
     },
   },
