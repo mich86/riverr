@@ -4,7 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="/styles.css" />
+		<link rel="stylesheet" href="/public/styles.css" />
+		<!-- <link rel="stylesheet" href="/styles.css" /> -->
 		<title>About us | Quintain Living</title>
 	</head>
 	<body>
@@ -304,13 +305,13 @@
 		<footer class="bg-grey-500">
 			<!-- nav items -->
 			<nav
-				class="container mx-auto max-w-full pt-8 pb-5 px-4 md:max-w-2xl flex flex-row flex-wrap"
+				class="container mx-auto max-w-full pt-9 pb-5 px-4 md:max-w-2xl flex flex-row flex-wrap"
 			>
 				<!-- col 1 -->
 				<div class="flex-2 mb-6 md:flex-4 md:mb-0">
-					<h3 class="text-lg font-bold uppercase mb-3 md:text-2xl">
+					<h2 class="text-lg font-bold uppercase mb-3">
 						about
-					</h3>
+					</h2>
 					<ul class="">
 						<li class="mb-1"><a href="#" class="capitalize">blog</a></li>
 						<li class="mb-1">
@@ -324,9 +325,9 @@
 
 				<!-- col 2 -->
 				<div class="flex-2 mb-6 md:flex-4 md:mb-0">
-					<h3 class="text-lg font-bold uppercase mb-3 md:text-2xl">
+					<h2 class="text-lg font-bold uppercase mb-3">
 						living with us
-					</h3>
+					</h2>
 					<ul class="">
 						<li class="mb-1">
 							<a href="#" class="capitalize">search apartments</a>
@@ -342,9 +343,9 @@
 
 				<!-- col 3 -->
 				<div class="flex-2 mb-6 md:flex-4 md:mb-0">
-					<h3 class="text-lg font-bold uppercase mb-5 md:mb-3 md:text-2xl">
+					<h2 class="text-lg font-bold uppercase mb-5 md:mb-3">
 						residents
-					</h3>
+					</h2>
 					<ul>
 						<li class="mb-1"><a href="#">resident app</a></li>
 					</ul>
@@ -352,9 +353,9 @@
 
 				<!-- col 4 -->
 				<div class="flex-2 mb-6 md:flex-4 md:mb-0">
-					<h3 class="text-lg font-bold uppercase mb-5 md:mb-3 md:text-2xl">
+					<h2 class="text-lg font-bold uppercase mb-5 md:mb-3">
 						contact us
-					</h3>
+					</h2>
 					<ul>
 						<li class="mb-1"><a href="#">contact us</a></li>
 						<li class="mb-1"><a href="#">book a viewing</a></li>
@@ -367,20 +368,37 @@
 
 			<!-- social media -->
 			<div class="container mx-auto max-w-full md:max-w-2xl">
-				<ul class="flex flex-row gap-3 justify-center">
+				<ul class="flex flex-row gap-4 justify-center">
           <!-- TODO add images -->
-					<li><a href="#">instagram</a></li>
-					<li><a href="#">linkedin</a></li>
-					<li><a href="#">facebook</a></li>
-					<li><a href="#">twitter</a></li>
+					<li>
+						<a href="https://www.instagram.com/quintainliving/" class="bg-red h-8 w-8 rounded-full flex justify-center items-center hover:bg-black">
+							<img src="/images/svgs/icon-instagram.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/company/quintain-living" class="bg-red h-8 w-8 rounded-full flex justify-center items-center hover:bg-black">
+							<img src="/images/svgs/icon-linkedin.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/quintainliving" class="bg-red h-8 w-8 rounded-full flex justify-center items-center hover:bg-black">
+							<img src="/images/svgs/icon-facebook.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/quintainliving" class="bg-red h-8 w-8 rounded-full flex justify-center items-center hover:bg-black">
+							<img src="/images/svgs/icon-twitter.svg" alt="">
+						</a>
+					</li>
 				</ul>
 			</div>
 			<!-- ./social media -->
 
 			<!-- copyright -->
 			<div
-				class="container mx-auto max-w-full py-2 px-4 text-center md:max-w-2xl"
+				class="container mx-auto max-w-full pt-5 pb-2 px-4 text-center md:max-w-2xl"
 			>
+				<!-- TODO year to be JS -->
 				<p>&copy; 2022 Quintain Living</p>
 			</div>
 			<!-- ./copyright -->
@@ -394,8 +412,8 @@
 			<p class="text-xs md:text-md">
 				<small
 					>This site is protected by reCAPTCHA and the
-					<a href="#" class="text-red">Google Privacy Policy</a> and
-					<a href="#" class="text-red">Terms of Service</a> apply.
+					<a href="#" class="text-red hover:text-blue hover:underline">Google Privacy Policy</a> and
+					<a href="#" class="text-red hover:text-blue hover:underline">Terms of Service</a> apply.
 				</small>
 			</p>
 		</div>

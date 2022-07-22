@@ -8,3 +8,4 @@
 
 ## Ignore FE stuff
 /node_modules
+/dist
